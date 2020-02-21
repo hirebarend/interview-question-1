@@ -1,6 +1,4 @@
-﻿using InterviewQuestion1.Validators;
-using InterviewQuestion1.Validators.Strategies;
-using System;
+﻿using System;
 
 namespace InterviewQuestion1.App
 {

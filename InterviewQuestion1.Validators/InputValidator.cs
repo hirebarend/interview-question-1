@@ -7,7 +7,7 @@ namespace InterviewQuestion1.Validators
     {
         protected string _input;
 
-        protected IList<IInputValidatorStrategy> _inputValidatorStrategies;
+        protected readonly IList<IInputValidatorStrategy> _inputValidatorStrategies;
 
         public InputValidator(string input)
         {

@@ -5,9 +5,9 @@ namespace InterviewQuestion1.Validators.Strategies
 {
     public class InputValidatorNumericLimitsStrategy : IInputValidatorStrategy
     {
-        protected int _lowerLimit;
+        protected readonly int _lowerLimit;
 
-        protected int _upperLimit;
+        protected readonly int _upperLimit;
 
         public InputValidatorNumericLimitsStrategy(int lowerLimit, int upperLimit)
         {

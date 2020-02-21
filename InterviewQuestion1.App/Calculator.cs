@@ -6,13 +6,13 @@ namespace InterviewQuestion1.App
 {
     public class Calculator
     {
-        protected int _lowerLimit;
+        protected readonly int _lowerLimit;
 
-        protected int _upperLimit;
+        protected readonly int _upperLimit;
 
-        protected Func<string> _read;
+        protected readonly Func<string> _read;
 
-        protected Action<string> _write;
+        protected readonly Action<string> _write;
 
         public Calculator(int lowerLimit, int upperLimit, Func<string> read, Action<string> write)
         {
