@@ -2,11 +2,11 @@
 
 namespace InterviewQuestion1.App
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            var calculator = new Calculator(0, 5, () => Console.ReadLine(), (str) => Console.WriteLine(str));
+            var calculator = new Calculator(0, 5, () => Console.ReadLine(), Console.WriteLine);
 
             calculator.Run();
         }

@@ -7,7 +7,7 @@ namespace InterviewQuestion1.Validators.Strategies
     {
         public string Validate(string input)
         {
-            if (!int.TryParse(input, out var inputNumber))
+            if (!int.TryParse(input, out _))
             {
                 throw new Exception("input needs to be a number");
             }
